@@ -8,7 +8,7 @@ const PORT = process.env.PORT || 3000;
 
 // Middleware
 app.use(cors());
-app.uapp.use(express.json({ limit: '100mb' }));
+app.use(express.json({ limit: '100mb' })); 
 app.use(express.urlencoded({ limit: '100mb', extended: true }));
 
 // NVIDIA NIM API configuration
